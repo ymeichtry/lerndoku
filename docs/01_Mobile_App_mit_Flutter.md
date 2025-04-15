@@ -17,6 +17,7 @@ Mit Flutter kann man moderne und gut aussehende Benutzeroberflächen schnell und
 ### Was kann ich mit Flutter machen?
 
 mit Flutter kann man Apps entwickeln für:
+
 - Android
 - iOS
 - Windows
@@ -35,6 +36,7 @@ Zuerst musst du Flutter und Dart auf deinem Computer installieren.
 #### Flutter installieren
 
 1. Lade das Flutter SDK von der offiziellen Webseite herunter:
+
    - [Flutter SDK herunterladen](https://flutter.dev/docs/get-started/install)
 
 2. Entpacke das heruntergeladene ZIP-Archiv an einen Ort deiner Wahl (z. B. `C:\src\flutter` auf Windows oder `/home/username/flutter` auf Linux/Mac).
@@ -84,14 +86,19 @@ Falls man auch Android-Emlulatoren (Smartphones zum Testen auf dem Desktop) nutz
 1. Öffne dein Terminal oder VS Code
 2. gehe zu dem Verzeichnis, in dem du dein Flutter Projekt erstellen und speichern möchtest.
 3. Erstelle ein neues Flutter-Projekt mit dem folgendem Befehl:
+
 ```bash
 flutter create mein_erstes_projekt
 ```
+
 4. Gehe in das Verzeichnis des Projektes:
+
 ```bash
 cd mein_erstes_projekt
 ```
+
 5. Starte die App auf einem Emulator oder Gerät:
+
 ```bash
 flutter run
 ```
@@ -101,6 +108,7 @@ flutter run
 1. Öffne die `lib/main.dart` -Datei in deinem Projekt.
 2. Ändere den Code, um deine ersten Flutter Funktionen zu erstellen
    - Zum Beispiel:
+
 ```dart
 import 'package:flutter/material.dart';
 
@@ -125,7 +133,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-3. Speichere die Datei und sieh dir deine Änderungen im Emulator oder eine physischen Gerät an. 
+3. Speichere die Datei und sieh dir deine Änderungen im Emulator oder eine physischen Gerät an.
    Um einen Hotreaload vom Flutter-Projekt durchzuführen tippe ein `r` in die Konsole
 
 ## Projektstruktur verstehen
@@ -148,7 +156,7 @@ class MyApp extends StatelessWidget {
 - **`build/`**  
   → Automatisch generierter Ordner beim Kompilieren. Enthält Build-Artefakte – **nicht bearbeiten**.
 
-- **`web/`** *(optional)*  
+- **`web/`** _(optional)_  
   → Nur wenn du Web-Support aktiviert hast. Enthält HTML/CSS-Dateien und Web-spezifische Konfiguration.
 
 ### Wichtige Dateien
@@ -164,15 +172,15 @@ class MyApp extends StatelessWidget {
     flutter:
       sdk: flutter
     http: ^0.14.0
-   ```
+  ```
 - **`pubspec.lock`**
-   → Wird automatisch erstellt, speichert genaue Versionen der Abhängigkeiten. Nicht manuell bearbeiten.
+  → Wird automatisch erstellt, speichert genaue Versionen der Abhängigkeiten. Nicht manuell bearbeiten.
 
 - **`.gitignore`**
-   → Definiert, welche Dateien bei der Verwendung von Git ignoriert werden (z. B. build/, .dart_tool/).
+  → Definiert, welche Dateien bei der Verwendung von Git ignoriert werden (z. B. build/, .dart_tool/).
 
 - **`README.md`**
-   → Dokumentation für dein Projekt. Hier kannst du eine Beschreibung, Screenshots, Installationsanleitung usw. einfügen.
+  → Dokumentation für dein Projekt. Hier kannst du eine Beschreibung, Screenshots, Installationsanleitung usw. einfügen.
 
 ## Mehr Informationen
 
