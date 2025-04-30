@@ -12,14 +12,19 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
  Create as many sidebars as you want.
  */
-const sidebars: SidebarsConfig = {
+ const sidebars: SidebarsConfig = {
   tutorialSidebar: [
-    "intro", // Datei: docs/intro.md
+    "0",
+    "1",
     {
       type: "category",
-      label: "Lerndokumentation",
+      label: "Maven",
       collapsed: false,
-      items: ["1"],
+      link: {
+        type: "doc",
+        id: "Maven/2",
+      },
+      items: ["Maven/3", "Maven/4"],
     },
   ],
 };
