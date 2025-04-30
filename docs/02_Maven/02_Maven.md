@@ -10,14 +10,14 @@ Maven, oder korrekt Apache Maven ist ein Build-Management-Tool, das vor allem in
 
 ## Was macht Maven genau?
 
-
 ## Die POM-Datei (Project Object Model)
 
 Die pom.xml ist das Herzstück eines Maven-projekts, es enthält Informationen wie:
+
 - Projektinformationen: Name des Projekts, Version, Beschreibung.
 - Abhängigkeiten: Welche Bibliotheken und Frameworks das Projekt braucht.
 - Plugins: Zusätzliche Wekzeuge, die den Build-Prozess erweitern. (wie z.B. Compiler Plugins oder Test-Frameworks).
-- Build-Spezifikationen: 
+- Build-Spezifikationen:
 
 ## Mehr Informationen / Quellen
 
