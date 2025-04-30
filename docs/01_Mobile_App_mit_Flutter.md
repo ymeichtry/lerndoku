@@ -4,6 +4,14 @@ title: Mobile App mit Flutter
 description: Wie erstelle ich eine Mobile App mit Flutter
 ---
 
+import Image from '@theme/IdealImage';
+
+<Image
+img={require('@site/static/img/Flutter_Logo.png')}
+alt="Apache Maven Logo"
+style={{ width: "100%", borderRadius: "12px" }}
+/>
+
 # Mobile App mit Flutter
 
 ## Einleitung
