@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
       },
       items: ["Maven/3", "Maven/4"],
     },
+    "5",
   ],
 };
 
